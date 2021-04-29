@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>鞋's GO!</title>
+<body>
+
+<center><h1>選鞋歡迎你!</h1></center>
+<center><p class="mid-text"></p></center>
+<div class="URLpart">
+    <a href="https://www.nike.com/tw/">Nike</a> 
+    <a href="https://www.adidas.com.tw/">adidas</a>
+    <a href="https://www.nineselect.com">九號商店</a>
+    <a href="https://www.reebok.com.tw/">Reebok</a>
+    <a href="https://www.newbalance.com.tw/">Newbalance</a>
+    <a href="https://www.familyshoes.com.tw/">鞋全家福</a>
+    <a href="https://www.asics.com.tw/">亞瑟士</a>
+    <a href="https://shopee.tw/acrossports">跨運動</a>
+    <a href="https://www.abcmart-tw.com/">ABC-Mart</a>
+</div>
+<div class="option-space">
+    <p>請根據以下條件選取:</p>
+    <div class="option1">
+        <form>
+            <select>
+            <option>請選擇你的性別</option>
+            <option value="男">男</option>
+            <option value="女">女</option><br>
+        </select>   
+    </form></div>
+    <div class="option2">
+        <form>
+        <select>
+            <option>請選擇你的尺寸</option>
+            <option value="US6/24">US6/24CM</option>
+            <option value="US6.5/24.5">"US6.5/24.5CM"</option>
+            <option value="US7/25">US7/25CM</option>
+            <option value="US7.5/25.5">US7.5/25.5CM</option>
+            <option value="US8/26">US8/26CM</option>
+            <option value="US8.5/26.5">US8.5/26.5CM</option>
+            <option value="US9/27">US9/27CM</option>
+            <option value="US9.5/27.5">US9.5/27.5CM</option>
+            <option value="US10/28">US10/28CM</option>
+            <option value="US10.5/28.5">US10.5/28.5CM</option>
+            <option value="US11/29">US11/29CM</option>
+            <option value="US11.5/29.5">US11.5/29.5CM</option>
+            <option value="US12/30">US12/30CM</option>
+            <option value="US12.5/30.5">US12.5/30.5CM</option>
+            <option value=>US13/31CM</option><br>
+            </select>
+        </form>
+    </div>
+    <div class="option3">
+        <form>
+            <select>
+            <option>請選擇您的鞋種:</option>
+            <option>跑步鞋</option>
+            <option>休閒鞋</option>
+            <option>籃球鞋</option>
+            <option>皮鞋</option>
+            <option>高跟鞋</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="option4">
+        <form>
+        <select>
+            <option>請選擇您可接受的價格:</option>
+            <option>1000以下</option>
+            <option>3000以下</option>
+            <option>5000以下</option>
+            <option>10000以下</option>
+            <option>10000以上</option>
+        </select>
+    </form>
+</div>
+<div class="button">
+    <button type="button">確認</button>
+    </div>
+</div>
+<div class="content">
+    <div class="Resilt"></div>
+</div>
+<div class="content">
+    <div class="contet text1">選鞋店的宗旨:</div>
+    <div class="contet text2">您可在上面看看</div>
+</div>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    h1{
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+    }
+    a:link{
+        color: seashell;
+    }
+    a:visited{
+        color: seashell;
+    }
+    a:hover{
+        background-color: skyblue;
+    }
+    .URLpart{  
+        width: 100vw;
+        height: 30px;
+        font-size: 20px;
+        background-color: red;
+        text
+      }
+    
+    .mid-text{
+        height: auto;
+        background-color: black;
+        color: azure;
+        border: blue;
+    }
+    .option-space{
+        float: left;
+        width: 200px;
+        height: 100vh;
+        background-color: burlywood;
+     }
+     .option-space p{
+         text-align:center;
+     }
+    
+    .option1{
+         width: 20px;
+         height: 20px;
+         border-width: 20px;
+         padding: 20px;
+     }
+     .option2{
+         width: 20px;
+         height: 20px;
+         border-width: 20px;
+         padding: 20px;
+     }
+     .option3{
+         width: 20px;
+         height: 20px;
+         border-width: 20px;
+         padding: 20px;
+     }
+     .option4{
+         width: 20px;
+         height: 20px;
+         border-width: 20px;
+         padding: 20px;
+     }
+    .button{
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .content{
+        text-align: center;
+        width: 100px;;
+        height: 200px;
+    }
+    </style>
+<script>
+   window.alert("選鞋去歡迎你")
+</script>
+
+</body>
+</html>
